@@ -23,7 +23,7 @@
             <div class="input-group mb-2">
               <input type="text" class="form-control border-0" placeholder="city">
               <div class="input-append">
-                <button class="btn bg-secondary border-0 text-black" id="city-search" type="button"><i class="fas fa-search"></i></button>
+                <button class="btn bg-secondary border-0 text-black" id="search-city" type="button"><i class="fas fa-search"></i></button>
               </div>
             </div>
 
@@ -38,6 +38,91 @@
                   <tr class="borderless" id="row7"></tr>
                   <tr class="borderless" id="row8"></tr>
                   <tr class="borderless" id="row9"></tr>        
-              </table>
+            </table>
+          </div>
+
+          <div class="col-md-9">
+            <div class="card col-md mt-4 mb-4 border-0 bg-secondary">
+              <div id="forecast" class="card-body pl-1 pr-1">
+                <div class="row">
+                  <div id="city" class="col-md-auto h4 navbar-text">City:</div>
+                  <div class="col-md-2"><img id="weather-img" height="auto" width="auto"></div>
+                </div>
+                <span id="temp-data"></span><br>
+                <span id="humidity-data"></span><br>
+                <span id="wind-data"></span><br>
+                <span id="uvindex-data"></span><br>
+              </div>
             </div>
+    
+            <div id="forecast-title" class="row">
+              <h3 class="ml-3">5-Day Forecast</h3>
+            </div>
+    
+            <div id="forecast-cards" class="row">
+              <div class="col-md five-card-size">
+                <div id="forecast-day1" class="card bg-secondary text-white mb-1 border-0">
+                  <div class="card-info">
+                    <h6></h6>
+                      <img class="weather-img" height="auto" width="auto">
+                        <p class="temp-5 small"></p>
+                        <p class="hum-5 small"></p>
+                  </div>
+              </div>
+            </div>
+    
+            <div class="col-md five-card-size">
+              <div id="forecast-day2" class="card bg-secondary text-white mb-1 border-0">
+                <div class="card-info">
+                  <h6></h6>
+                      <img class="weather-img" height="auto" width="auto">
+                        <p class="temp-5 small"></p>
+                        <p class="hum-5 small"></p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md five-card-size">
+              <div id="forecast-day3" class="card bg-secondary text-white mb-1 border-0">
+                <div class="card-info">
+                  <h6></h6>
+                    <img class="weather-img" height="auto" width="auto">
+                      <p class="temp-5 small"></p>
+                      <p class="hum-5 small"></p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md five-card-size">
+              <div id="forecast-day4" class="card bg-secondary text-white mb-1 border-0">
+                <div class="card-info">
+                  <h6></h6>
+                    <img class="weather-img" height="auto" width="auto">
+                      <p class="temp-5 small"></p>
+                      <p class="hum-5 small"></p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md five-card-size">
+              <div id="forecast-day5" class="card bg-secondary text-white mb-1 border-0">
+                <div class="card-info">
+                  <h6></h6>
+                    <img class="weather-img" height="auto" width="auto">
+                      <p class="temp-5 small"></p>
+                      <p class="hum-5 small"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" crossorigin="anonymous"></script>
+ <script src="Assets/Style/script.js"></script>           
  </body>
+</html> 
