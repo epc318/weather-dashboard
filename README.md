@@ -5,7 +5,7 @@ This repository contains the HTML, CSS, JavaScript, and other related elements t
 
 ### Web Page Description and Purpose:
 * Description
-    A simple site that fetches a 5-day forcast for a chosen city.
+    A simple site that fetches a 5-day forecast for a chosen city.
 
 * Purpose
     To obtain a relevant forecast in order to plan out your daily acitivities. 
@@ -14,9 +14,9 @@ This repository contains the HTML, CSS, JavaScript, and other related elements t
 https://epc318.github.io/weather-dashboard/
 
 ## Source Code and Deployment Example:
-![Source Code]()
+![Weather Dashboard - Source Code](https://github.com/epc318/weather-dashboard/blob/main/Assets/images/Source_Code_example_weather.PNG)
 
-![Deployed]()
+![Weather Dashboard - Deployed](https://github.com/epc318/weather-dashboard/blob/main/Assets/images/deploy_ex_weather.PNG)
 
 ## Built With
 * HTML
