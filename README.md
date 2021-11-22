@@ -14,8 +14,11 @@ This repository contains the HTML, CSS, JavaScript, and other related elements t
 https://epc318.github.io/weather-dashboard/
 
 ## Source Code and Deployment Example:
+
+* Source Code
 ![Weather Dashboard - Source Code](https://github.com/epc318/weather-dashboard/blob/main/Assets/images/Source_Code_example_weather.PNG)
 
+* Deployed Application
 ![Weather Dashboard - Deployed](https://github.com/epc318/weather-dashboard/blob/main/Assets/images/deploy_ex_weather.PNG)
 
 ## Built With
