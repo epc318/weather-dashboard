@@ -23,6 +23,8 @@ https://epc318.github.io/weather-dashboard/
 * CSS
 * JavaScript
 * Open Weather API Service
+* BootStrap
+* JQuery
 
 ## Author
 * Evan Carlson

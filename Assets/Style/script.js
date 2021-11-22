@@ -160,7 +160,7 @@ let setFiveDayData = (response) => {
 			.find('h6')
 			.text(dateString(dataArray[i].dt * 1000));
 		$(`#forecast-day${dayNumber}`)
-			.find('.weather-icon')
+			.find('.weather-img')
 			.attr('src', iconURL + dataArray[i].weather[0].icon + '.png');
 		$(`#forecast-day${dayNumber}`)
 			.find('.temp-5')
