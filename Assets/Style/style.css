@@ -1,0 +1,56 @@
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: black;
+	background-color: skyblue;
+}
+
+.table {
+	background-color: goldenrod;
+}
+
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+	background-color: #ffffff;
+}
+
+.five-card-size {
+	font-size: 1.25rem;
+	position: relative;
+	width: 100%;
+	min-height: 5px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.col-five-card-size {
+	flex: 0 0 20%;
+	max-width: 20%;
+}
+
+@media (min-width: 540px) {
+	.col-sm-five-card-size {
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+}
+
+@media (min-width: 720px) {
+	.col-md-five-card-size {
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+}
+
+@media (min-width: 960px) {
+	.col-lg-five-card-size {
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+}
+
+@media (min-width: 1140px) {
+	.col-xl-five-card-size {
+		flex: 0 0 20%;
+		max-width: 20%;
+	}
+}
